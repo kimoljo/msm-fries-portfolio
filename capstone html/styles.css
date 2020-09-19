@@ -1,0 +1,62 @@
+/* Master styles */
+
+div, body, html, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: #000000;
+}
+
+/* top menu */
+
+.logo-image {
+    height: 20px;
+    width: 44px;
+    align-items: center;
+    margin-left: 28px;
+    margin-right: 14px;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 20px;
+    font-size: 1.0em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-wrapper > .nav-menu > div {
+    margin-right: 20px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff00;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper a:hover {
+    color: #ffff00;
+}
+
+
+/* Capstone styles */
